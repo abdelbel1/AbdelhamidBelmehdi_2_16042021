@@ -384,3 +384,82 @@ padding: 5px;
 .fas.fa-star.grey-star {
     color: grey;
 }
+
+/*hebergements/Les plus populaires*/
+
+#hebergements_populaires {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px 30px 10px 30px;
+    max-width: 380px;
+}
+
+.titre_les_plus_populaires {
+    margin-bottom: 15px;
+}
+
+.fa-chart-line {
+    color: black;
+    margin-left: 120px;
+
+}
+
+.hebergement_les_plus_populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0px;
+   
+
+}
+
+.box_populaire_carte {
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    padding: 3px 58px 3px 3px;
+    width: 270px;
+    max-height: 140px;
+    margin-bottom: 25px;
+    
+    
+}
+
+
+.photo_populaire {
+    width: 40%;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box_populaire_carte:hover {
+    transform: scale(1.05);
+}
+
+.hebergement_populaire_contenu {
+    
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3px 0px 3px 15px;
+
+}
+
+.titre_populaire_contenu {
+
+}
+
+.prix_populaire_contenu {
+    padding-bottom: 30px;
+}
+
+.hebergement_notation_populaire {
+    max-width: 94px;
+    max-height: 15px;
+    font-size: 11px;
+}
+
