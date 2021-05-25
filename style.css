@@ -774,8 +774,7 @@ font-size: 15px;
  }
    /*Hebergements*/
 #hebergements  {
-  display:flex;
-   flex-direction: column;
+ 
   width: 100%;
   margin:0;
 
@@ -783,8 +782,10 @@ font-size: 15px;
     /* les plus Populaires - Mobile */
 
      #hebergements_populaires{
-width: 100%;
-margin-right: 10px;
+      display:gird;
+        grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-right: 10px;
     order:1;
     border-radius: 0;
     }  
@@ -796,10 +797,11 @@ margin-right: 10px;
     /* Hebergements_marseille - Mobile */
 
     #hebergements_a_marseille{
+      display:gird;
+        grid-template-columns: repeat(1, 1fr);
 width: 100%;
 background-color: white;
     order:2;
-      display: flex;
 padding-left: 25px;
 
     }  
@@ -820,23 +822,25 @@ width: 100%;
     min-width: 330px;
   }
 
-
+.hebergement_afficher_plus{
+      padding-left: 5px;
+    }
 
 
     /* Activities - Mobile */
 
      #Activités_à_Marseille{
-       margin-left:35px;
-      width: auto;
-        
+       margin-left:40px;
+      width: 100%;
     }
     .activites{
        display:gird;
         grid-template-columns: repeat(1, 1fr);
    grid-column-gap: 5px; 
-   
-       
-    }
+   width: auto;
+   max-width: 340px;
+
+  }
 
     .photo_activite11,
     .photo_activite22,
@@ -844,11 +848,12 @@ width: 100%;
     .photo_activite44,
     .photo_activite55,
     .photo_activite66{
-             width:100;
+             width:100%;
              max-height: 140px;
+             
     }
 
-    
+
 
     /* Footer - Mobile */
 
