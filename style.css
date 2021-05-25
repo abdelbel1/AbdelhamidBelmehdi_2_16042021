@@ -555,3 +555,31 @@ padding: 5px;
 .activite6:hover{
  transform: scale(0.95);
 }
+
+/*Footer*/
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  max-width: 100%;
+  padding: 48px 40px 20px 50px;
+  box-sizing: border-box; 
+  margin-bottom: 10px;
+}
+
+.bloc_footer {
+  width: 40%;
+}
+
+.titre_footer{
+  display: block;
+ 
+}
+
+.ligne_footer {
+ 
+  display: block;
+  margin: 15px 0;
+  font-weight: 550;
+  font-size: 14px;
+}
