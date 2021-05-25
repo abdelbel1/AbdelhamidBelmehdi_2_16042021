@@ -463,3 +463,95 @@ padding: 5px;
     font-size: 11px;
 }
 
+/*Activités à Marseille*/
+
+#Activités_à_Marseille {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    max-width: 1350px;
+  margin: 0px 20px;
+
+}
+
+.titre_activites {
+    margin-bottom: 20px;
+   
+}
+
+.activites {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+
+}
+
+.activite2et3,
+.activite5et6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.activite1,
+.activite2,
+.activite3,
+.activite4,
+.activite5,
+.activite6 {
+    box-shadow: 0px 5px 20px #F2F2F2;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.photo_activite22{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.photo_activite33{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
+}
+
+
+.photo_activite55,
+.photo_activite66 {
+     width: 100%;
+    height: 155px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
+}
+.photo_activite11,
+.photo_activite44{
+     width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+     padding-bottom: 20px;
+}
+
+.activite1:hover,
+.activite2:hover,
+.activite3:hover,
+.activite4:hover,
+.activite5:hover,
+.activite6:hover{
+ transform: scale(0.95);
+}
