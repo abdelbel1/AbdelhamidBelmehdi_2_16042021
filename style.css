@@ -1,0 +1,7 @@
+/*Téléchargement de la police Raleway*/
+ 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;800&display=swap');
+*  {
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
+color: black;
+}
