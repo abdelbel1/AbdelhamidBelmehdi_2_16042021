@@ -583,3 +583,358 @@ footer {
   font-weight: 550;
   font-size: 14px;
 }
+
+/*Responsive*/
+
+/* Mobile version */
+@media only screen and (max-width: 600px){
+
+    /* General */
+
+   .Ma_page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+
+  }
+  h1{
+    font-size: 20px;
+}
+ h2{
+    font-size: 16px;
+}
+h3{
+    font-size: 15px;
+}
+
+    /* Header - Mobile */
+
+     header {
+    display: grid;
+    align-self: center;
+    width: 100%;
+
+  
+  }
+#logo{
+  margin-top: 10px;
+  margin-left: 30px;
+
+}
+
+ .hebergements-activites {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+
+ 
+  }
+
+   .entete_nav {
+   font-size: 15px;
+  display: inline-block;
+  width: 80%;
+  border-bottom: 2px solid #f2f2f2;
+   padding-bottom: 15px;
+   padding-left: 40px;
+   padding-right: 0px;
+
+}
+
+    .entete_inscr{
+       
+    position: ABSOLUTE;
+    top: 50px;
+    right: 5%;
+    border: none;
+    font-size: 15px;
+
+    }
+
+  .entete_nav:hover{
+     border-top: none;
+     border-color: #0065FC;
+
+  }
+
+    /* Section recherche - Mobile */
+
+.description_recherche h1{
+      margin:0 0 0 10px ;
+      width: 80%;
+     
+    }
+
+    .description_recherche h3{
+        margin:10px ;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .section_recherche{
+     align-items: center;
+    width: 100%;
+    flex-direction: row;
+    }
+.localisation_logo {
+    width: 45px;  
+}
+.barre_recherche{
+height: 45px;
+ margin-left: 10px;
+ width: 100%;
+  }
+.type-search::placeholder {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+.type-search{
+padding-right: 50px;
+ border-right: none;
+}
+.rechercher {
+  background-color: white;
+padding: 0;
+margin: 0;
+width: 0;
+ 
+
+}  
+.rechercher span{
+  display: none;
+
+}  
+.rechercher i{
+   display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    margin-right: 40%;
+  top:2px;
+   
+
+}
+
+
+ /* FILTRES */
+
+
+#filtres-section  {
+ display: grid;
+ grid-auto-flow: row;
+ width: 100%;
+
+
+
+  
+  
+        }
+  .titre_filtre{
+   margin-bottom: 20px;
+   margin-left: 10px;
+
+
+     }
+     .titre_filtre h2{
+   font-size: 16px;
+     }
+
+
+ .filtre {
+     width: 100%;
+   
+
+
+  }
+.filtre-bouton{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    
+
+  }
+
+/*info nombre de logements */
+    .nombre_logements{
+
+padding-left:5px;
+
+}
+.nombre_logements h3{
+font-size: 15px;
+
+
+}
+    .fas.fa-info-circle {
+    color: #0065fc;
+
+ }
+   /*Hebergements*/
+#hebergements  {
+  display:flex;
+   flex-direction: column;
+  width: 100%;
+  margin:0;
+
+}
+    /* les plus Populaires - Mobile */
+
+     #hebergements_populaires{
+width: 100%;
+margin-right: 10px;
+    order:1;
+    border-radius: 0;
+    }  
+
+    .hebergement_les_plus_populaires{
+         width: 100%;
+         margin-top:15px;
+        }
+    /* Hebergements_marseille - Mobile */
+
+    #hebergements_a_marseille{
+width: 100%;
+background-color: white;
+    order:2;
+      display: flex;
+padding-left: 25px;
+
+    }  
+ 
+.carte_hebergement{
+
+width: 100%;
+
+}
+.box_carte{
+  
+ min-width: 330px;
+
+
+}
+.photo_hebergement {
+   
+    min-width: 330px;
+  }
+
+
+
+
+    /* Activities - Mobile */
+
+     #Activités_à_Marseille{
+       margin-left:35px;
+      width: auto;
+        
+    }
+    .activites{
+       display:gird;
+        grid-template-columns: repeat(1, 1fr);
+   grid-column-gap: 5px; 
+   
+       
+    }
+
+    .photo_activite11,
+    .photo_activite22,
+    .photo_activite33,
+    .photo_activite44,
+    .photo_activite55,
+    .photo_activite66{
+             width:100;
+             max-height: 140px;
+    }
+
+    
+
+    /* Footer - Mobile */
+
+    footer{
+        display: grid;
+   width: auto;
+   margin-left:20px;
+
+    }
+
+   .bloc_footer {
+  width: auto;
+  margin-bottom: 20px;
+
+       
+        }
+ 
+
+.ligne_footer {
+ 
+  display: block;
+padding-bottom: 0;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+}
+/* RESPONSIVE TABLETTE */
+
+@media (min-width: 601px) and (max-width: 1024px) /* TABLETTE */ {
+
+
+  /* FILTRES */
+  #filtres-section{
+    width: 100%;
+    display: inline-flex;
+
+  }
+  .filtre {
+    width: auto;
+    display: inline-flex;
+    
+}
+.filtre-bouton p{
+    padding: 0px 10px 0px 45px;   
+}
+.filtre-bouton {
+width: auto;  
+margin-bottom: 3px;
+}
+  
+  .filtre-bouton p a{
+ font-weight: bold;
+   font-size: 13px;
+    }
+
+  .nombre_logements h3{
+   font-size: 14px;
+  }
+
+  /* HEBERGEMENTS ET POPULAIRES */
+
+  .hebergementetpop {
+    margin: 25px 0 50px;
+    display: FLEX;
+    flex-direction: column;
+  }
+
+  .titresection {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES HEBERGEMENTS */
+
+  #hebergements_a_marseille {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+
+  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+
+  #hebergements_populaires {
+    width: 100%;
+   border-radius: 0;
+  }
+
+}
