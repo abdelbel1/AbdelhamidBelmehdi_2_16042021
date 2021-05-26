@@ -500,7 +500,7 @@ padding: 5px;
 .activite4,
 .activite5,
 .activite6 {
-    box-shadow: 0px 5px 20px #F2F2F2;
+    box-shadow: 0 0 16px #0000002e;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
     margin: 0px 0px 20px 0px;
@@ -838,7 +838,7 @@ width: 100%;
         grid-template-columns: repeat(1, 1fr);
    grid-column-gap: 5px; 
    width: auto;
-   max-width: 340px;
+   max-width: 330px;
 
   }
 
