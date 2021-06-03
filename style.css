@@ -14,14 +14,14 @@ color: black;
 }
 body{
   overflow-x: hidden; 
-  margin: 10px;
+  
 }
 
 .Ma_page {
     width: 100%;
-    margin: auto;
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 h1 {
@@ -64,8 +64,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 25px 0;
-    margin: 0;
+    margin: 30px 0 30px 30px;
 }
 
 /*logo*/
@@ -116,7 +115,6 @@ header nav a {
 .entete_inscr {
     color: #0065FC;
     font-weight: bold;
-    margin-right: 10px;
 }
 
 /*Titre principal*/
@@ -288,7 +286,7 @@ header nav a {
 /*hebergements/Hébergements à Marseille*/
 
 #hebergements {
-  display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
 }
@@ -375,6 +373,7 @@ header nav a {
     border-radius: 20px;
     padding: 30px 30px 10px 30px;
     width: auto;
+    margin-right: 30px;
 }
 
 .titre_les_plus_populaires {
@@ -397,7 +396,7 @@ header nav a {
 }
 
 .box_populaire_carte {
-  display: flex;
+    display: flex;
     border: 3px solid white;
     border-radius: 20px;
     display: flex;
@@ -412,7 +411,7 @@ header nav a {
 
 
 .photo_populaire {
-    width: 40%;
+    width: 33%;
     height: 120px;
     object-fit: cover;
     border-top-left-radius: 10px;
@@ -424,7 +423,7 @@ header nav a {
 
 .hebergement_populaire_contenu {
     
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 3px 0px 3px 15px;
@@ -444,9 +443,8 @@ header nav a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 1350px;
-    margin: 40px 0;
-
+    max-width: auto;
+    padding: 40px 30px 10px 0px;
 }
 
 .titre_activites {
@@ -540,10 +538,10 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
   padding: 48px 40px 20px 50px;
   box-sizing: border-box; 
-  margin-bottom: 10px;
+  margin: 0;
+
 }
 
 .bloc_footer {
@@ -570,7 +568,9 @@ footer {
 @media only screen and (max-width: 600px){
 
     /* General */
-
+body{
+  margin: 0;
+}
    .Ma_page {
     margin: 0;
     padding: 0;
@@ -595,14 +595,13 @@ header {
     align-items: center;
     width: 100%;
     flex-direction: column;
-
+    margin: 0;
   
   }
 #logo{
-  margin-left: 10px;
   display: block;
   align-self: flex-start;
-
+ margin: 20px 0 0 20px;
 }
 header nav {
     order: 2;
@@ -616,21 +615,20 @@ header nav {
 header nav ul li {
     width: 50%;
     text-align: center;
-    border-bottom: 2px solid #f2f2f2;
-    padding-bottom: 10px;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 5px;
+    padding-left: 35px;
 }
    .entete_nav {
-   font-size: 16px;
+   font-size: 15px;
   display: block;
   color: inherit;
- margin-top: 10px;
-
 }
 
     .entete_inscr{
        
     position: ABSOLUTE;
-    top: 40px;
+    top: 30px;
     right: 20px;
     border: none;
     font-size: 15px;
@@ -649,15 +647,16 @@ border-color: #0065FC;
 
 .description_recherche h1{
      width: 80%;
-     margin-left: 10px;
+     margin: 20px 0 0 20px;
+
 
     }
 .description_recherche h3{
-        margin:10px ;
+        margin-left:20px ;
         margin-bottom: 20px;
         font-size: 14px;
     }
-    .section_recherche{
+.section_recherche{
     width: 100%;
     flex-direction: row;
     }
@@ -666,7 +665,7 @@ border-color: #0065FC;
 }
 .barre_recherche{
 height: 45px;
- margin-left: 10px;
+ margin-left: 20px;
  width: 100%;
   }
 .type-search::placeholder {
@@ -705,6 +704,7 @@ padding-right: 50px;
  display: grid;
  grid-auto-flow: row;
  width: 90%;
+ margin: 20px;
 }
 .titre_filtre{
 margin: 10px;
@@ -717,12 +717,12 @@ font-size: 16px;
 }
 .filtre-bouton{
     margin-bottom: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 /*info nombre de logements */
 .nombre_logements{
-padding:0 20px 0 5px;
+padding:0 20px;
 
 }
 .nombre_logements h3{
@@ -749,6 +749,7 @@ margin:0;
         order:1;
         border-radius: 0;
         padding:20px;
+        margin: 0;
     }  
 
     .hebergement_les_plus_populaires{
@@ -778,10 +779,11 @@ margin:0;
      #Activités_à_Marseille{
       width: auto;
       padding:0 20px;
+      margin:40px 0;
     }
     .activites{
        display: grid;
-    grid-gap: 30px;
+    grid-gap: 10px;
    grid-template-columns: repeat(1,1fr);
 }
 
@@ -792,7 +794,7 @@ margin:0;
     .photo_activite55,
     .photo_activite66{
              width:100%;
-           max-height: 140px;
+             height: 140px;
              
     }
 
@@ -802,9 +804,8 @@ margin:0;
 
     footer{
         display: grid;
-   width: auto;
-   margin-left:20px;
-
+        width: 100%;
+        padding-left: 30px;
     }
 
    .bloc_footer {
@@ -829,8 +830,6 @@ padding-bottom: 0;
 @media (min-width: 601px) and (max-width: 1024px) /* TABLETTE */ {
 
 .Ma_page {
-    margin: 0;
-    padding: 0;
     display: flex;
     width: 100%;
 
@@ -869,8 +868,10 @@ margin-bottom: 3px;
 
   /* HEBERGEMENTS ET POPULAIRES */
   #hebergements {
-  display: flex;
+    display: flex;
     flex-direction: column;
+    padding: 20px;
+    margin: 0;
 
 }
  /* PARAMETRES HEBERGEMENTS POPULAIRES */
