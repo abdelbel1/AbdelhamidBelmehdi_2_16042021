@@ -36,7 +36,7 @@ font-weight: bold;
 
 h3 {
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 500;
   
 
 }
@@ -88,7 +88,7 @@ header nav {
 }
 
 a {
-    font-weight: 550;
+    font-weight: 500;
     padding-top: 3px;
     text-decoration: none;
 }
@@ -441,7 +441,7 @@ font-size: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: auto;
+    width: auto;
     padding: 40px 0px 10px 0px;
 }
 
@@ -557,7 +557,7 @@ footer {
  
   display: block;
   margin: 10px 0;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 14px;
 }
 
@@ -819,7 +819,7 @@ margin:0;
  
   display: block;
 padding-bottom: 0;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 15px;
 }
 
