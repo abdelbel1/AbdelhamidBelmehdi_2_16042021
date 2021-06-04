@@ -300,7 +300,7 @@ header nav a {
 }
 
 .titre_hebergements_a_marseille {
-
+font-size: 20px;
  padding-bottom: 15px;
   }
 
@@ -378,6 +378,7 @@ header nav a {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 .fa-chart-line {
@@ -446,6 +447,7 @@ header nav a {
 
 .titre_activites {
     margin-bottom: 20px;
+    font-size: 20px;
    
 }
 
