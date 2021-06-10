@@ -124,8 +124,10 @@ header nav a {
     margin: 10px;
 }
 
-.description_recherche h3{
+.description_recherche p{
     margin-top: 10px;
+    font-size: 14px;
+    color: black;
 }
 
 /*Barre de recherche*/
@@ -296,20 +298,19 @@ header nav a {
   border-radius: 15px;
   padding: 30px;
   grid-column: span 2;
-
-}
+  }
 
 .titre_hebergements_a_marseille {
-font-size: 20px;
- padding-bottom: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
   }
 
 .carte_hebergement {
-  display: grid;
-    grid-gap: 1.75rem;
-   grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
     margin-bottom: 35px;
-}
+  }
 
 .box_carte {
     border: 3px solid white;
@@ -317,7 +318,7 @@ font-size: 20px;
     padding: 3px 3px 3px 3px;
     background-color: white;
     box-shadow: 0 5px 16px #d3d3d3;
-
+    width: 100%;
 }
 
 .hebergement_image {
@@ -383,6 +384,7 @@ font-size: 20px;
 
 .fa-chart-line {
     color: black;
+    font-size: 20px;
 }
 
 .hebergement_les_plus_populaires {
@@ -647,10 +649,8 @@ border-color: #0065FC;
 .description_recherche h1{
      width: 80%;
      margin: 20px 0 0 20px;
-
-
     }
-.description_recherche h3{
+.description_recherche p{
         margin-left:20px ;
         margin-bottom: 20px;
         font-size: 14px;
