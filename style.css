@@ -741,14 +741,14 @@ margin:0;
 }
     /* les plus Populaires - Mobile */
 
-     #hebergements_populaires{
-        display:grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: auto;
-        order:1;
-        border-radius: 0;
-        padding:20px;
-        margin: 0;
+#hebergements_populaires{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    order:1;
+    border-radius: 0;
+    padding:20px;
+    margin: 0;
     }  
 
     .hebergement_les_plus_populaires{
@@ -762,7 +762,7 @@ margin:0;
       width: auto;
       background-color: white;
       order:2;
-      padding:0 20px;
+      padding:0 30px 0 20px;
 
 
     }  
@@ -895,7 +895,7 @@ margin-bottom: 3px;
    order: 2;
   }
 .activites{
-       display: grid;
+    display: grid;
     grid-gap: 30px;
   }
  
